@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700436B42536C63200A95D38 /* Cheers in Frameworks */ = {isa = PBXBuildFile; productRef = 700436B32536C63200A95D38 /* Cheers */; };
+		7007E86B24CC4020009D493E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007E86A24CC4020009D493E /* AppDelegate.swift */; };
+		7007E86D24CC4020009D493E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007E86C24CC4020009D493E /* SceneDelegate.swift */; };
+		7007E87224CC4020009D493E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7007E87024CC4020009D493E /* Main.storyboard */; };
+		7007E87524CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7007E87324CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodeld */; };
+		7007E87724CC4021009D493E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7007E87624CC4021009D493E /* Assets.xcassets */; };
+		7007E87A24CC4021009D493E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7007E87824CC4021009D493E /* LaunchScreen.storyboard */; };
+		7007E88C24CC404C009D493E /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7007E88524CC404C009D493E /* Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7007E89324CC4F67009D493E /* Regex in Frameworks */ = {isa = PBXBuildFile; productRef = 7007E89224CC4F67009D493E /* Regex */; };
+		7007E89624CC4F72009D493E /* Regex in Frameworks */ = {isa = PBXBuildFile; productRef = 7007E89524CC4F72009D493E /* Regex */; };
+		703A1AE42537847E0049DF33 /* OSAcknowledgments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */; };
+		703A1AEB25378A500049DF33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A1AEA25378A500049DF33 /* DetailViewController.swift */; };
+		703A1AF725378B850049DF33 /* OSAcknowledgments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */; };
+		70577E12253663240014CF03 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70577E11253663240014CF03 /* StoreKit.framework */; };
+		70577E1625368BB80014CF03 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70577E1525368BB80014CF03 /* RoundButton.swift */; };
+		70577E1F25368F160014CF03 /* AboutModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70577E1E25368F160014CF03 /* AboutModal.swift */; };
+		70577E24253691AB0014CF03 /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 70577E23253691AB0014CF03 /* SwiftyStoreKit */; };
+		70F8036F24D6D11E00E95818 /* MetaControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8036E24D6D11E00E95818 /* MetaControllers.swift */; };
+		70FCF37F24CD7F5600345430 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF37E24CD7F5600345430 /* Common.swift */; };
+		70FCF38024CD7F5E00345430 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF37E24CD7F5600345430 /* Common.swift */; };
+		70FCF38224CD805200345430 /* RegexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF38124CD805200345430 /* RegexTableViewController.swift */; };
+		70FCF38524CD840700345430 /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF38324CD840700345430 /* MessageFilterExtension.swift */; };
+		70FCF38A24CD8A8F00345430 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF38924CD8A8F00345430 /* Filter.swift */; };
+		70FCF38B24CD8A8F00345430 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF38924CD8A8F00345430 /* Filter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7007E88A24CC404C009D493E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7007E85F24CC401F009D493E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7007E88424CC404C009D493E;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7007E89024CC404C009D493E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7007E88C24CC404C009D493E /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7007E86724CC4020009D493E /* Rexley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rexley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7007E86A24CC4020009D493E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7007E86C24CC4020009D493E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7007E87124CC4020009D493E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7007E87424CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rexley_Spam_Blocker.xcdatamodel; sourceTree = "<group>"; };
+		7007E87624CC4021009D493E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7007E87924CC4021009D493E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7007E87B24CC4021009D493E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7007E88524CC404C009D493E /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		70342EF224EAA95200F7F982 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OSAcknowledgments.txt; sourceTree = "<group>"; };
+		703A1AEA25378A500049DF33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		70577E11253663240014CF03 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		70577E1525368BB80014CF03 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		70577E1E25368F160014CF03 /* AboutModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModal.swift; sourceTree = "<group>"; };
+		70985D5C24CD7276001F3DD8 /* Rexley Spam Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rexley Spam Blocker.entitlements"; sourceTree = "<group>"; };
+		70F8036E24D6D11E00E95818 /* MetaControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaControllers.swift; sourceTree = "<group>"; };
+		70FCF37E24CD7F5600345430 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		70FCF38124CD805200345430 /* RegexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTableViewController.swift; sourceTree = "<group>"; };
+		70FCF38324CD840700345430 /* MessageFilterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageFilterExtension.swift; sourceTree = "<group>"; };
+		70FCF38424CD840700345430 /* Extension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
+		70FCF38624CD841200345430 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70FCF38924CD8A8F00345430 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7007E86424CC4020009D493E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700436B42536C63200A95D38 /* Cheers in Frameworks */,
+				70577E12253663240014CF03 /* StoreKit.framework in Frameworks */,
+				70577E24253691AB0014CF03 /* SwiftyStoreKit in Frameworks */,
+				7007E89324CC4F67009D493E /* Regex in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7007E88224CC404C009D493E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7007E89624CC4F72009D493E /* Regex in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7007E85E24CC401F009D493E = {
+			isa = PBXGroup;
+			children = (
+				703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */,
+				70342EF224EAA95200F7F982 /* README.md */,
+				70FCF38924CD8A8F00345430 /* Filter.swift */,
+				70FCF37E24CD7F5600345430 /* Common.swift */,
+				7007E86924CC4020009D493E /* Rexley Spam Blocker */,
+				7007E88624CC404C009D493E /* Extension */,
+				7007E86824CC4020009D493E /* Products */,
+				7007E89424CC4F72009D493E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7007E86824CC4020009D493E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7007E86724CC4020009D493E /* Rexley.app */,
+				7007E88524CC404C009D493E /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7007E86924CC4020009D493E /* Rexley Spam Blocker */ = {
+			isa = PBXGroup;
+			children = (
+				70F3077925379DDF00B2B6B7 /* ViewControllers */,
+				70577E1D25368EC90014CF03 /* Supporting Files */,
+				7007E86A24CC4020009D493E /* AppDelegate.swift */,
+				7007E86C24CC4020009D493E /* SceneDelegate.swift */,
+				70577E1525368BB80014CF03 /* RoundButton.swift */,
+			);
+			path = "Rexley Spam Blocker";
+			sourceTree = "<group>";
+		};
+		7007E88624CC404C009D493E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70FCF38624CD841200345430 /* Info.plist */,
+				70FCF38424CD840700345430 /* Extension.entitlements */,
+				70FCF38324CD840700345430 /* MessageFilterExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7007E89424CC4F72009D493E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70577E11253663240014CF03 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70577E1D25368EC90014CF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7007E87624CC4021009D493E /* Assets.xcassets */,
+				7007E87024CC4020009D493E /* Main.storyboard */,
+				7007E87824CC4021009D493E /* LaunchScreen.storyboard */,
+				70985D5C24CD7276001F3DD8 /* Rexley Spam Blocker.entitlements */,
+				7007E87324CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodeld */,
+				7007E87B24CC4021009D493E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70F3077925379DDF00B2B6B7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				70F8036E24D6D11E00E95818 /* MetaControllers.swift */,
+				70FCF38124CD805200345430 /* RegexTableViewController.swift */,
+				703A1AEA25378A500049DF33 /* DetailViewController.swift */,
+				70577E1E25368F160014CF03 /* AboutModal.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7007E86624CC4020009D493E /* Rexley Spam Blocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7007E87E24CC4021009D493E /* Build configuration list for PBXNativeTarget "Rexley Spam Blocker" */;
+			buildPhases = (
+				7007E86324CC4020009D493E /* Sources */,
+				7007E86424CC4020009D493E /* Frameworks */,
+				7007E86524CC4020009D493E /* Resources */,
+				7007E89024CC404C009D493E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7007E88B24CC404C009D493E /* PBXTargetDependency */,
+			);
+			name = "Rexley Spam Blocker";
+			packageProductDependencies = (
+				7007E89224CC4F67009D493E /* Regex */,
+				70577E23253691AB0014CF03 /* SwiftyStoreKit */,
+				700436B32536C63200A95D38 /* Cheers */,
+			);
+			productName = "Rexley Spam Blocker";
+			productReference = 7007E86724CC4020009D493E /* Rexley.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7007E88424CC404C009D493E /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7007E88D24CC404C009D493E /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				7007E88124CC404C009D493E /* Sources */,
+				7007E88224CC404C009D493E /* Frameworks */,
+				7007E88324CC404C009D493E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			packageProductDependencies = (
+				7007E89524CC4F72009D493E /* Regex */,
+			);
+			productName = Extension;
+			productReference = 7007E88524CC404C009D493E /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7007E85F24CC401F009D493E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Donn;
+				TargetAttributes = {
+					7007E86624CC4020009D493E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7007E88424CC404C009D493E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7007E86224CC401F009D493E /* Build configuration list for PBXProject "Rexley Spam Blocker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7007E85E24CC401F009D493E;
+			packageReferences = (
+				7007E89124CC4F67009D493E /* XCRemoteSwiftPackageReference "Regex" */,
+				70577E22253691AB0014CF03 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */,
+				700436B22536C63200A95D38 /* XCRemoteSwiftPackageReference "Cheers" */,
+			);
+			productRefGroup = 7007E86824CC4020009D493E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7007E86624CC4020009D493E /* Rexley Spam Blocker */,
+				7007E88424CC404C009D493E /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7007E86524CC4020009D493E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7007E87A24CC4021009D493E /* LaunchScreen.storyboard in Resources */,
+				7007E87724CC4021009D493E /* Assets.xcassets in Resources */,
+				7007E87224CC4020009D493E /* Main.storyboard in Resources */,
+				703A1AE42537847E0049DF33 /* OSAcknowledgments.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7007E88324CC404C009D493E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703A1AF725378B850049DF33 /* OSAcknowledgments.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7007E86324CC4020009D493E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703A1AEB25378A500049DF33 /* DetailViewController.swift in Sources */,
+				70577E1625368BB80014CF03 /* RoundButton.swift in Sources */,
+				7007E87524CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodeld in Sources */,
+				7007E86B24CC4020009D493E /* AppDelegate.swift in Sources */,
+				70FCF37F24CD7F5600345430 /* Common.swift in Sources */,
+				70FCF38224CD805200345430 /* RegexTableViewController.swift in Sources */,
+				7007E86D24CC4020009D493E /* SceneDelegate.swift in Sources */,
+				70F8036F24D6D11E00E95818 /* MetaControllers.swift in Sources */,
+				70FCF38A24CD8A8F00345430 /* Filter.swift in Sources */,
+				70577E1F25368F160014CF03 /* AboutModal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7007E88124CC404C009D493E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FCF38024CD7F5E00345430 /* Common.swift in Sources */,
+				70FCF38524CD840700345430 /* MessageFilterExtension.swift in Sources */,
+				70FCF38B24CD8A8F00345430 /* Filter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7007E88B24CC404C009D493E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 7007E88424CC404C009D493E /* Extension */;
+			targetProxy = 7007E88A24CC404C009D493E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7007E87024CC4020009D493E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7007E87124CC4020009D493E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7007E87824CC4021009D493E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7007E87924CC4021009D493E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7007E87C24CC4021009D493E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7007E87D24CC4021009D493E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7007E87F24CC4021009D493E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rexley Spam Blocker/Rexley Spam Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPZ49RF6C6;
+				INFOPLIST_FILE = "Rexley Spam Blocker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "website.donn.Rexley-Spam-Blocker";
+				PRODUCT_NAME = Rexley;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7007E88024CC4021009D493E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Rexley Spam Blocker/Rexley Spam Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPZ49RF6C6;
+				INFOPLIST_FILE = "Rexley Spam Blocker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "website.donn.Rexley-Spam-Blocker";
+				PRODUCT_NAME = Rexley;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7007E88E24CC404C009D493E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPZ49RF6C6;
+				INFOPLIST_FILE = Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "website.donn.Rexley-Spam-Blocker.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7007E88F24CC404C009D493E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPZ49RF6C6;
+				INFOPLIST_FILE = Extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "website.donn.Rexley-Spam-Blocker.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7007E86224CC401F009D493E /* Build configuration list for PBXProject "Rexley Spam Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7007E87C24CC4021009D493E /* Debug */,
+				7007E87D24CC4021009D493E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7007E87E24CC4021009D493E /* Build configuration list for PBXNativeTarget "Rexley Spam Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7007E87F24CC4021009D493E /* Debug */,
+				7007E88024CC4021009D493E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7007E88D24CC404C009D493E /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7007E88E24CC404C009D493E /* Debug */,
+				7007E88F24CC404C009D493E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		700436B22536C63200A95D38 /* XCRemoteSwiftPackageReference "Cheers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onmyway133/Cheers";
+			requirement = {
+				kind = revision;
+				revision = fc7f0c14ebbd3a166e63bb46e8867ddef73e0c30;
+			};
+		};
+		7007E89124CC4F67009D493E /* XCRemoteSwiftPackageReference "Regex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crossroadlabs/Regex";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		70577E22253691AB0014CF03 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bizz84/SwiftyStoreKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		700436B32536C63200A95D38 /* Cheers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 700436B22536C63200A95D38 /* XCRemoteSwiftPackageReference "Cheers" */;
+			productName = Cheers;
+		};
+		7007E89224CC4F67009D493E /* Regex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7007E89124CC4F67009D493E /* XCRemoteSwiftPackageReference "Regex" */;
+			productName = Regex;
+		};
+		7007E89524CC4F72009D493E /* Regex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7007E89124CC4F67009D493E /* XCRemoteSwiftPackageReference "Regex" */;
+			productName = Regex;
+		};
+		70577E23253691AB0014CF03 /* SwiftyStoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70577E22253691AB0014CF03 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */;
+			productName = SwiftyStoreKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		7007E87324CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7007E87424CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodel */,
+			);
+			currentVersion = 7007E87424CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodel */;
+			path = Rexley_Spam_Blocker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7007E85F24CC401F009D493E /* Project object */;
+}
