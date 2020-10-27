@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a6G-AV-sJM">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,26 +13,26 @@
             <objects>
                 <tableViewController id="1tV-YZ-Tzs" customClass="RegexTableViewController" customModule="Rexley" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelectionDuringEditing="YES" rowHeight="64" sectionHeaderHeight="1" sectionFooterHeight="1" id="dv1-EG-MxO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="separatorColor" red="0.9735608697" green="0.26665139199999999" blue="0.2278730273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegexCell" rowHeight="64" id="0Cu-hx-bk7" customClass="RegexCell" customModule="Rexley" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="55.5" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Cu-hx-bk7" id="BDB-PN-QoY">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPD-7R-nNT">
-                                            <rect key="frame" x="20" y="22" width="160" height="21"/>
+                                            <rect key="frame" x="20" y="22" width="215" height="21"/>
                                             <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Indicator" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lWQ-2U-Sge">
-                                            <rect key="frame" x="228" y="15" width="72" height="34"/>
+                                            <rect key="frame" x="283" y="15" width="72" height="34"/>
                                             <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="72" id="4hr-jB-Euc"/>
@@ -42,7 +42,7 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgO-QN-Qbn">
-                                            <rect key="frame" x="200" y="21" width="20" height="22"/>
+                                            <rect key="frame" x="255" y="21" width="20" height="22"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="20" id="2nJ-Wa-XzY"/>
                                             </constraints>
@@ -68,14 +68,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlusCell" rowHeight="64" id="ay9-t2-yuV" customClass="PlusCell" customModule="Rexley" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="119.5" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="119.5" width="375" height="64"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ay9-t2-yuV" id="xcP-tc-JJV">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZ4-3T-Eor">
-                                            <rect key="frame" x="150" y="21" width="20" height="22"/>
+                                            <rect key="frame" x="177.5" y="21" width="20" height="22"/>
                                             <color key="tintColor" systemColor="systemGreenColor"/>
                                             <state key="normal" image="plus.circle.fill" catalog="system"/>
                                             <connections>
@@ -99,9 +99,6 @@
                             <outlet property="delegate" destination="1tV-YZ-Tzs" id="dKf-jA-5GO"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Filters" image="list.dash" catalog="system" id="LSc-Er-TU0">
-                        <color key="badgeColor" red="0.9735608697" green="0.26665139199999999" blue="0.2278730273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBarItem>
                     <toolbarItems>
                         <barButtonItem title="Item" image="info.circle" catalog="system" id="gsC-VX-AnW">
                             <connections>
@@ -119,30 +116,30 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="editButton" destination="FmO-vc-vlf" id="h3w-XN-ZJ8"/>
+                        <segue destination="UsN-XR-gfN" kind="presentation" identifier="initialLaunchSegue" id="GUV-zQ-gzd"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dti-sh-Nhe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tabBarItem title="Filters" image="list.dash" id="E9I-Qh-ptG"/>
             </objects>
             <point key="canvasLocation" x="-1098.4375" y="-264.2578125"/>
         </scene>
-        <!--About Rexley-->
+        <!--About Modal-->
         <scene sceneID="I5L-uq-FL2">
             <objects>
                 <viewController id="XR5-qJ-KVV" customClass="AboutModal" customModule="Rexley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UCW-l4-klJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Loading…" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGF-Z0-Br1">
-                                <rect key="frame" x="20" y="64" width="280" height="464"/>
+                                <rect key="frame" x="20" y="64" width="335" height="563"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLc-eB-70X">
-                                <rect key="frame" x="280" y="20" width="20" height="22"/>
+                                <rect key="frame" x="335" y="20" width="20" height="22"/>
                                 <state key="normal" image="xmark.circle.fill" catalog="system"/>
                                 <connections>
                                     <action selector="exitPressed:" destination="pYF-QL-H1p" eventType="touchUpInside" id="cAX-u3-fRk"/>
@@ -150,10 +147,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="6hd-0m-OMB">
-                                <rect key="frame" x="20" y="64" width="280" height="464"/>
+                                <rect key="frame" x="20" y="64" width="335" height="563"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSm-69-Iuf">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="212.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="244"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <string key="text">Rexley is a free, dead simple Text or Regular Expression-based SMS filter for iPhone and iPad.
 
@@ -168,16 +165,16 @@ https://github.com/donn/Rexley</string>
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like Rexley?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gF0-sV-WiM">
-                                        <rect key="frame" x="0.0" y="228.5" width="280" height="18"/>
+                                        <rect key="frame" x="0.0" y="260" width="335" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="aQ0-FC-N1O">
-                                        <rect key="frame" x="0.0" y="262.5" width="280" height="53"/>
+                                        <rect key="frame" x="0.0" y="296.5" width="335" height="61"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="il4-i8-b4D" customClass="RoundButton" customModule="Rexley" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="53"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100.5" height="61"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Small Tip">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -189,7 +186,7 @@ https://github.com/donn/Rexley</string>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82F-wV-OF6" customClass="RoundButton" customModule="Rexley" customModuleProvider="target">
-                                                <rect key="frame" x="99" y="0.0" width="82" height="53"/>
+                                                <rect key="frame" x="117.5" y="0.0" width="100" height="61"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Modest Tip">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -201,7 +198,7 @@ https://github.com/donn/Rexley</string>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIp-XK-H3G" customClass="RoundButton" customModule="Rexley" customModuleProvider="target">
-                                                <rect key="frame" x="198" y="0.0" width="82" height="53"/>
+                                                <rect key="frame" x="234.5" y="0.0" width="100.5" height="61"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Large Tip">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -219,20 +216,28 @@ https://github.com/donn/Rexley</string>
                                         </constraints>
                                     </stackView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Tipping unlocks no bonus features, but it helps cover App Store costs while keeping the app free and without ads for everyone." textAlignment="natural" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hC-3T-5hK">
-                                        <rect key="frame" x="0.0" y="331.5" width="280" height="88.5"/>
+                                        <rect key="frame" x="0.0" y="373.5" width="335" height="101.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mb0-Z0-GPg">
-                                        <rect key="frame" x="0.0" y="436" width="280" height="28"/>
+                                        <rect key="frame" x="0.0" y="491" width="335" height="28"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                         <state key="normal" title="Third Party Software…">
                                             <color key="titleColor" systemColor="linkColor"/>
                                         </state>
                                         <connections>
                                             <action selector="toggleOSA:" destination="XR5-qJ-KVV" eventType="touchUpInside" id="f6U-Y8-rsD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOV-ih-q4r">
+                                        <rect key="frame" x="0.0" y="535" width="335" height="28"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <state key="normal" title="Reset all app settings…"/>
+                                        <connections>
+                                            <action selector="resetTapped:" destination="XR5-qJ-KVV" eventType="touchUpInside" id="gAt-bd-wkM"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -258,9 +263,6 @@ https://github.com/donn/Rexley</string>
                             <constraint firstItem="gyv-1o-zh1" firstAttribute="trailing" secondItem="MLc-eB-70X" secondAttribute="trailing" constant="20" id="iHq-wR-HQn"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About Rexley" image="info.circle" catalog="system" id="lHe-8q-yFd">
-                        <color key="badgeColor" red="0.9735608697" green="0.26665139199999999" blue="0.2278730273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBarItem>
                     <connections>
                         <outlet property="iap1" destination="il4-i8-b4D" id="vXJ-ib-lmJ"/>
                         <outlet property="iap3" destination="82F-wV-OF6" id="W7y-WZ-QIx"/>
@@ -271,23 +273,20 @@ https://github.com/donn/Rexley</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4LQ-Kf-wFD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="ckn-2c-mVg" userLabel="Exit" sceneMemberID="exit"/>
-                <tabBarItem title="About Rexley" selectedImage="info.circle" catalog="system" id="otB-C0-lME">
-                    <color key="badgeColor" red="0.9735608697" green="0.26665139199999999" blue="0.2278730273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </tabBarItem>
                 <navigationItem title="About" id="IQ7-PZ-N9g"/>
             </objects>
-            <point key="canvasLocation" x="-145" y="-264"/>
+            <point key="canvasLocation" x="-1099" y="473"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="aIL-J4-H1e">
             <objects>
                 <viewController id="pYF-QL-H1p" customClass="DetailViewController" customModule="Rexley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3DK-Bw-7Np">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="jrb-JV-YAu">
-                                <rect key="frame" x="12" y="64" width="296" height="370"/>
+                                <rect key="frame" x="39.5" y="64" width="296" height="370"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Filter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnw-0d-wMV">
                                         <rect key="frame" x="0.0" y="0.0" width="296" height="34"/>
@@ -400,12 +399,12 @@ https://github.com/donn/Rexley</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vv-5m-CRa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="tzV-Qo-0yt" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1926" y="558"/>
+            <point key="canvasLocation" x="-304" y="-264"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="Kn9-OM-BeA">
             <objects>
-                <splitViewController id="a6G-AV-sJM" customClass="SplitViewController" customModule="Rexley" customModuleProvider="target" sceneMemberID="viewController">
+                <splitViewController storyboardIdentifier="SplitViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="a6G-AV-sJM" customClass="SplitViewController" customModule="Rexley" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="ByE-2v-DEh" kind="relationship" relationship="masterViewController" id="PF1-wG-RRE"/>
                         <segue destination="pYF-QL-H1p" kind="relationship" relationship="detailViewController" id="cdo-YY-qOh"/>
@@ -413,7 +412,7 @@ https://github.com/donn/Rexley</string>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bak-4M-gJF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2878" y="108"/>
+            <point key="canvasLocation" x="-2782" y="-265"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MQF-gP-NAd">
@@ -421,12 +420,12 @@ https://github.com/donn/Rexley</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="ByE-2v-DEh" customClass="NavigationController" customModule="Rexley" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="70J-Bd-Tjt">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wkC-GV-YKb">
-                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
@@ -436,6 +435,147 @@ https://github.com/donn/Rexley</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0TL-xT-PIm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1924" y="-264"/>
+        </scene>
+        <!--Introduction View Controller-->
+        <scene sceneID="izE-Xf-bC0">
+            <objects>
+                <viewController id="UsN-XR-gfN" customClass="IntroductionViewController" customModule="Rexley" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rNe-fg-HYN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="IjM-W5-0BV" userLabel="Primary Stack View" customClass="RoundStackView" customModule="Rexley" customModuleProvider="target">
+                                <rect key="frame" x="32.5" y="73.5" width="310" height="500"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Rexley." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3M6-CV-PB9">
+                                        <rect key="frame" x="16" y="16" width="278" height="21"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vD5-L7-2lL">
+                                        <rect key="frame" x="16" y="59" width="278" height="104"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <string key="text">Before we begin, you need to give Rexley permission to filter your text messages.
+
+Your messages will never leave your phone. All processing is done on your device. Rexley does not collect your data.</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMy-uu-7uz">
+                                        <rect key="frame" x="16" y="185" width="278" height="21"/>
+                                        <subviews>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l54-fo-eUu">
+                                                <rect key="frame" x="0.0" y="0.0" width="278" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <state key="normal" title=" Open the Settings app." image="1.circle" catalog="system">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VdE-hB-14D">
+                                        <rect key="frame" x="16" y="228" width="278" height="21"/>
+                                        <subviews>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNj-Ko-6nS">
+                                                <rect key="frame" x="0.0" y="0.0" width="278" height="21"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                                <state key="normal" title=" Scroll and tap &quot;Messages&quot;." image="2.circle" catalog="system">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fxx-64-F8w">
+                                        <rect key="frame" x="16" y="271" width="278" height="20.5"/>
+                                        <subviews>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSL-Vd-TO6">
+                                                <rect key="frame" x="0.0" y="0.0" width="278" height="20.5"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                                <state key="normal" title=" Scroll and tap &quot;Unknown &amp; Spam&quot;." image="3.circle" catalog="system">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sKJ-L7-8gL">
+                                        <rect key="frame" x="16" y="313.5" width="278" height="21"/>
+                                        <subviews>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kv-HH-MEZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="278" height="21"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                                <state key="normal" title=" Enable &quot;Filter Unknown Senders&quot;." image="4.circle" catalog="system">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nj-t2-p9u">
+                                        <rect key="frame" x="16" y="356.5" width="278" height="21"/>
+                                        <subviews>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3H-T2-rCN">
+                                                <rect key="frame" x="0.0" y="0.0" width="278" height="21"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                                <state key="normal" title=" Under &quot;SMS Filtering,&quot; pick Rexley." image="5.circle" catalog="system">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tqh-Ta-TFb">
+                                        <rect key="frame" x="16" y="399.5" width="278" height="21"/>
+                                        <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                        <color key="tintColor" red="0.95294117649999999" green="0.33333333329999998" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title=" Start" image="play.fill" catalog="system"/>
+                                        <state key="disabled" title=" Saved" image="checkmark.circle" catalog="system"/>
+                                        <connections>
+                                            <action selector="startTapped:" destination="UsN-XR-gfN" eventType="touchUpInside" id="SRC-WK-j9Z"/>
+                                            <segue destination="guA-Xn-qK6" kind="unwind" unwindAction="backWithUnwindSegue:" id="lr8-Ym-1BV"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This message will not show again after you tap Start." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wq7-xk-FwM">
+                                        <rect key="frame" x="16" y="442.5" width="278" height="41.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="1kv-HH-MEZ" firstAttribute="height" secondItem="gSL-Vd-TO6" secondAttribute="height" id="3AR-pB-hmb"/>
+                                    <constraint firstItem="Wq7-xk-FwM" firstAttribute="height" secondItem="Tqh-Ta-TFb" secondAttribute="height" multiplier="2" id="ElF-LF-ibg"/>
+                                    <constraint firstItem="l54-fo-eUu" firstAttribute="height" secondItem="3M6-CV-PB9" secondAttribute="height" id="JLP-ga-lpV"/>
+                                    <constraint firstItem="d3H-T2-rCN" firstAttribute="height" secondItem="1kv-HH-MEZ" secondAttribute="height" id="STr-lz-abn"/>
+                                    <constraint firstItem="xNj-Ko-6nS" firstAttribute="height" secondItem="l54-fo-eUu" secondAttribute="height" id="Sja-Ah-nbU"/>
+                                    <constraint firstItem="Tqh-Ta-TFb" firstAttribute="height" secondItem="d3H-T2-rCN" secondAttribute="height" id="Vdu-6O-pig"/>
+                                    <constraint firstItem="vD5-L7-2lL" firstAttribute="height" secondItem="3M6-CV-PB9" secondAttribute="height" multiplier="5" id="eAB-Tb-5sX"/>
+                                    <constraint firstAttribute="height" constant="500" id="iGA-2A-p5F"/>
+                                    <constraint firstItem="gSL-Vd-TO6" firstAttribute="height" secondItem="xNj-Ko-6nS" secondAttribute="height" id="kJT-UX-ZRC"/>
+                                    <constraint firstAttribute="width" constant="310" id="xJi-11-PXm"/>
+                                </constraints>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="16" leading="16" bottom="16" trailing="16"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="G4x-fu-I4R"/>
+                        <color key="backgroundColor" red="0.8980392157" green="0.32549019610000002" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="IjM-W5-0BV" firstAttribute="centerY" secondItem="G4x-fu-I4R" secondAttribute="centerY" id="e25-sj-sHk"/>
+                            <constraint firstItem="IjM-W5-0BV" firstAttribute="centerX" secondItem="G4x-fu-I4R" secondAttribute="centerX" id="xiV-G3-tju"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WZE-8g-rMO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zE4-SQ-P82" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="guA-Xn-qK6" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-1100" y="-1009"/>
         </scene>
     </scenes>
     <designables>
@@ -450,15 +590,19 @@ https://github.com/donn/Rexley</string>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="QMn-g8-KF3"/>
+        <segue reference="cdo-YY-qOh"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.8980392157" green="0.32549019610000002" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
+        <image name="1.circle" catalog="system" width="128" height="121"/>
+        <image name="2.circle" catalog="system" width="128" height="121"/>
+        <image name="3.circle" catalog="system" width="128" height="121"/>
+        <image name="4.circle" catalog="system" width="128" height="121"/>
+        <image name="5.circle" catalog="system" width="128" height="121"/>
         <image name="checkmark.circle" catalog="system" width="128" height="121"/>
         <image name="doc.text" catalog="system" width="115" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
-        <image name="list.dash" width="128" height="128"/>
-        <image name="list.dash" catalog="system" width="128" height="85"/>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <image name="trash" catalog="system" width="121" height="128"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>

@@ -165,4 +165,25 @@ class AboutModal: UIViewController {
             }
         }
     }
+    @IBAction func resetTapped(_ sender: Any) {
+        let alert = UIAlertController(
+            title: "Reset all settings?",
+            message: "This will reset all the app settings for Rexley. This cannot be undone.",
+            preferredStyle: .alert
+        )
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { _ in
+            
+        }))
+
+        alert.addAction(UIAlertAction(title: "Reset", style: .destructive, handler: { _ in
+            let dictionary = UserDefaults.group.dictionaryRepresentation()
+            dictionary.keys.forEach { key in
+                UserDefaults.group.removeObject(forKey: key)
+            }
+            NotificationCenter.default.post(name: Notification.Name(rawValue: "website.donn.Rexley:SOFT RESET"), object: nil)
+        }))
+
+        self.present(alert, animated: true)
+    }
 }

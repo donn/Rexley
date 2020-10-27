@@ -22,7 +22,12 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    
+    @objc
+    func softReset() {
+        self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+        self.window?.makeKeyAndVisible()
+    }
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -30,6 +35,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        self.window = UIWindow(windowScene: windowScene)
+        softReset()
+        
+        NotificationCenter.default.addObserver(
+           self,
+           selector: #selector(softReset),
+           name: Notification.Name(rawValue: "website.donn.Rexley:SOFT RESET"),
+           object: nil
+       )
         
         #if targetEnvironment(macCatalyst) // Don't show titlebar in macOS (Aesthetic)
         if let titlebar = windowScene.titlebar {

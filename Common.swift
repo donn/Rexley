@@ -52,7 +52,6 @@ extension UserDefaults {
         return object
     }
 }
-
 extension Array { // Queue
     mutating func push(_ el: Element) {
         self.append(el)

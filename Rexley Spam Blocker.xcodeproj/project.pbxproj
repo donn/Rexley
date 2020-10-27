@@ -24,6 +24,7 @@
 		70577E1625368BB80014CF03 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70577E1525368BB80014CF03 /* RoundButton.swift */; };
 		70577E1F25368F160014CF03 /* AboutModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70577E1E25368F160014CF03 /* AboutModal.swift */; };
 		70577E24253691AB0014CF03 /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 70577E23253691AB0014CF03 /* SwiftyStoreKit */; };
+		70A4954C2541C1B000F89E45 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4954B2541C1B000F89E45 /* IntroductionViewController.swift */; };
 		70F8036F24D6D11E00E95818 /* MetaControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8036E24D6D11E00E95818 /* MetaControllers.swift */; };
 		70FCF37F24CD7F5600345430 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF37E24CD7F5600345430 /* Common.swift */; };
 		70FCF38024CD7F5E00345430 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF37E24CD7F5600345430 /* Common.swift */; };
@@ -74,6 +75,7 @@
 		70577E1525368BB80014CF03 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		70577E1E25368F160014CF03 /* AboutModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModal.swift; sourceTree = "<group>"; };
 		70985D5C24CD7276001F3DD8 /* Rexley Spam Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rexley Spam Blocker.entitlements"; sourceTree = "<group>"; };
+		70A4954B2541C1B000F89E45 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		70F8036E24D6D11E00E95818 /* MetaControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaControllers.swift; sourceTree = "<group>"; };
 		70FCF37E24CD7F5600345430 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		70FCF38124CD805200345430 /* RegexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexTableViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				70FCF38124CD805200345430 /* RegexTableViewController.swift */,
 				703A1AEA25378A500049DF33 /* DetailViewController.swift */,
 				70577E1E25368F160014CF03 /* AboutModal.swift */,
+				70A4954B2541C1B000F89E45 /* IntroductionViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A4954C2541C1B000F89E45 /* IntroductionViewController.swift in Sources */,
 				703A1AEB25378A500049DF33 /* DetailViewController.swift in Sources */,
 				70577E1625368BB80014CF03 /* RoundButton.swift in Sources */,
 				7007E87524CC4020009D493E /* Rexley_Spam_Blocker.xcdatamodeld in Sources */,

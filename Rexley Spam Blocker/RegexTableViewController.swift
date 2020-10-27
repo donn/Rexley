@@ -75,7 +75,13 @@ class RegexTableViewController: UITableViewController {
         ) {
             _ in
             self.editPressed(self)
+        }
+        
+        
+        let initialLaunchPerformed = UserDefaults.group.getCodable(forKey: "initialLaunchPerformed", using: Bool.self) ?? false
             
+        if (!initialLaunchPerformed) {
+            self.performSegue(withIdentifier: "initialLaunchSegue", sender: self)
         }
         
         // Uncomment the following line to preserve selection between presentations
