@@ -17,14 +17,15 @@
 		7007E88C24CC404C009D493E /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7007E88524CC404C009D493E /* Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7007E89324CC4F67009D493E /* Regex in Frameworks */ = {isa = PBXBuildFile; productRef = 7007E89224CC4F67009D493E /* Regex */; };
 		7007E89624CC4F72009D493E /* Regex in Frameworks */ = {isa = PBXBuildFile; productRef = 7007E89524CC4F72009D493E /* Regex */; };
-		703A1AE42537847E0049DF33 /* OSAcknowledgments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */; };
 		703A1AEB25378A500049DF33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A1AEA25378A500049DF33 /* DetailViewController.swift */; };
-		703A1AF725378B850049DF33 /* OSAcknowledgments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */; };
 		70577E12253663240014CF03 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70577E11253663240014CF03 /* StoreKit.framework */; };
 		70577E1625368BB80014CF03 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70577E1525368BB80014CF03 /* RoundButton.swift */; };
 		70577E1F25368F160014CF03 /* AboutModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70577E1E25368F160014CF03 /* AboutModal.swift */; };
 		70577E24253691AB0014CF03 /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 70577E23253691AB0014CF03 /* SwiftyStoreKit */; };
+		70618F1D254B630C009A07C6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70618F1C254B630B009A07C6 /* Settings.bundle */; };
 		70A4954C2541C1B000F89E45 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4954B2541C1B000F89E45 /* IntroductionViewController.swift */; };
+		70BE366E2550EF91003ECF6C /* OSAcknowledgments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */; };
+		70BE36712550EFCA003ECF6C /* OSAcknowledgments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 703A1AE32537847E0049DF33 /* OSAcknowledgments.txt */; };
 		70F8036F24D6D11E00E95818 /* MetaControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8036E24D6D11E00E95818 /* MetaControllers.swift */; };
 		70FCF37F24CD7F5600345430 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF37E24CD7F5600345430 /* Common.swift */; };
 		70FCF38024CD7F5E00345430 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FCF37E24CD7F5600345430 /* Common.swift */; };
@@ -74,6 +75,7 @@
 		70577E11253663240014CF03 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		70577E1525368BB80014CF03 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		70577E1E25368F160014CF03 /* AboutModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModal.swift; sourceTree = "<group>"; };
+		70618F1C254B630B009A07C6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		70985D5C24CD7276001F3DD8 /* Rexley Spam Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rexley Spam Blocker.entitlements"; sourceTree = "<group>"; };
 		70A4954B2541C1B000F89E45 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		70F8036E24D6D11E00E95818 /* MetaControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaControllers.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				7007E86A24CC4020009D493E /* AppDelegate.swift */,
 				7007E86C24CC4020009D493E /* SceneDelegate.swift */,
 				70577E1525368BB80014CF03 /* RoundButton.swift */,
+				70618F1C254B630B009A07C6 /* Settings.bundle */,
 			);
 			path = "Rexley Spam Blocker";
 			sourceTree = "<group>";
@@ -282,8 +285,9 @@
 			files = (
 				7007E87A24CC4021009D493E /* LaunchScreen.storyboard in Resources */,
 				7007E87724CC4021009D493E /* Assets.xcassets in Resources */,
+				70618F1D254B630C009A07C6 /* Settings.bundle in Resources */,
+				70BE36712550EFCA003ECF6C /* OSAcknowledgments.txt in Resources */,
 				7007E87224CC4020009D493E /* Main.storyboard in Resources */,
-				703A1AE42537847E0049DF33 /* OSAcknowledgments.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703A1AF725378B850049DF33 /* OSAcknowledgments.txt in Resources */,
+				70BE366E2550EF91003ECF6C /* OSAcknowledgments.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

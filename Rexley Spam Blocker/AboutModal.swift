@@ -23,6 +23,7 @@ import Cheers
 
 class AboutModal: UIViewController {
     var cheerView: CheerView!
+    @IBOutlet weak var loading: UIView!
     
     @IBOutlet weak var primaryStack: UIStackView!
     @IBOutlet weak var osaText: UITextView!
@@ -34,19 +35,29 @@ class AboutModal: UIViewController {
     var buttonMap: [String: RoundButton?]!
     
     func purchase(product id: String) {
+        self.isModalInPresentation = true
+        self.loading.isHidden = false
         for (_, button) in buttonMap {
             button?.isEnabled = false
             button?.backgroundColor = #colorLiteral(red: 0.6666666865, green: 0.6666666865, blue: 0.6666666865, alpha: 1)
         }
         SwiftyStoreKit.purchaseProduct(id, quantity: 1, atomically: true) { result in
-            
+            DispatchQueue.main.async() {
+                self.isModalInPresentation = false
+                self.loading.isHidden = true
+                for (_, button) in self.buttonMap {
+                    button?.isEnabled = true
+                    button?.backgroundColor = #colorLiteral(red: 0.9735608697, green: 0.266651392, blue: 0.2278730273, alpha: 1)
+                }
+                
+            }
             switch result {
                 case .success(let purchase):
                     DispatchQueue.main.async() {
                         self.cheerView.start()
                         let alert = UIAlertController(
                             title: "Thank you!",
-                            message: "You've helped fund the ongoing development of Rexley. You're awesome!",
+                            message: "You've helped fund development of Rexley. You're awesome!",
                             preferredStyle: .alert
                         )
 
@@ -99,11 +110,6 @@ class AboutModal: UIViewController {
                         }
                     }
             }
-            
-            for (_, button) in self.buttonMap {
-                button?.isEnabled = true
-                button?.backgroundColor = #colorLiteral(red: 0.9735608697, green: 0.266651392, blue: 0.2278730273, alpha: 1)
-            }
         }
     }
     
@@ -114,9 +120,10 @@ class AboutModal: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let openSourceAcknowledgmentsFile = Bundle.main.path(forResource: "OSAcknowledgments", ofType: "txt")
-        let openSourceAcknowledgments = try! String(contentsOfFile: openSourceAcknowledgmentsFile!, encoding: .utf8)
-        osaText.text = openSourceAcknowledgments
+//        let openSourceAcknowledgmentsFile = Bundle.main.path(forResource: "OSAcknowledgments", ofType: "txt")
+//        let openSourceAcknowledgments = try! String(contentsOfFile: openSourceAcknowledgmentsFile!, encoding: .utf8)
+//        osaText.text = openSourceAcknowledgments
+        osaText.text = ":)"
         
         // Set up CheerView
         cheerView = CheerView()
