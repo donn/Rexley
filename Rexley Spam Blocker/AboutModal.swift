@@ -21,6 +21,36 @@ import UIKit
 import SwiftyStoreKit
 import Cheers
 
+
+import UIKit
+
+@IBDesignable
+class RoundButton: UIButton {
+    var onTouch: ((_:UIButton) -> ())? = nil
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        addTarget(self, action: #selector(callOnTouch), for: [.touchUpInside])
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        addTarget(self, action: #selector(callOnTouch), for: [.touchUpInside])
+    }
+    
+    @objc
+    func callOnTouch() {
+        onTouch?(self)
+    }
+    
+    @IBInspectable var cornerRadius: CGFloat = 0 {
+        didSet {
+            self.layer.cornerRadius = cornerRadius
+        }
+    }
+}
+
+
 class AboutModal: UIViewController {
     var cheerView: CheerView!
     @IBOutlet weak var loading: UIView!

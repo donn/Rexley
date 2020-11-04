@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  DetailViewController.swift
 //  Rexley Spam Blocker
 //
 //  Copyright © 2020 Mohamed Gaber. All rights reserved.
