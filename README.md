@@ -1,5 +1,5 @@
 # <img src="./Resources/logo.png" width="77" height="77" style="border-radius: 9px;">
-[![Swift Version 5.3](https://img.shields.io/badge/Swift-5.3-orange.svg)](https://swift.org/download)
+[![Swift Version 5.3](https://img.shields.io/badge/Swift-5.3-orange.svg)](https://swift.org/download) [![Download on the App Store](https://img.shields.io/static/v1?logo=apple&logoColor=white&label=&message=Download%20on%20the%20App%20Store&color=black)](https://apps.apple.com/us/app/id1535710759)
 
 Rexley is a free, dead simple Text or Regular Expression-based SMS filter for iPhone and iPad.
 
