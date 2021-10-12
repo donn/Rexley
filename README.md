@@ -1,5 +1,13 @@
-# <img src="./Resources/logo.png" width="77" height="77" style="border-radius: 9px;">
-[![Swift Version 5.3](https://img.shields.io/badge/Swift-5.3-orange.svg)](https://swift.org/download) [![Download on the App Store](https://img.shields.io/static/v1?logo=apple&logoColor=white&label=&message=Download%20on%20the%20App%20Store&color=black)](https://apps.apple.com/us/app/id1535710759)
+Rexley is no longer available on the App Store for the following reasons:
+
+1. I made this primarily for my own consumption and there's really no ROI on working on it any further. It's really quite ugly but it does what I need it to.
+2. The App Store is quite honestly a hassle to work with on a level no one ever warns you about. There's a ton of legal nonsense that Apple just assumes you have a lawyer to talk to about. You have to send a declaration to some US agency every year if you use cryptography, which I would have to do should Rexley ever add any feature that uses HTTPS, i.e., literally any feature that connects to the internet, and said declaration is ridiculously poorly documented and far too big of a liability for me to risk over such a silly simple app.
+
+If you want to fork this or straight up build it and publish it on the App Store, be my guest. I'd ask you to keep it open source but, it's the MIT License so you can do whatever the hell you damn please really.
+
+---
+# 🦖 Rexley
+[![Swift Version 5.3](https://img.shields.io/badge/Swift-5.3-orange.svg)](https://swift.org/download)
 
 Rexley is a free, dead simple Text or Regular Expression-based SMS filter for iPhone and iPad.
 
@@ -22,6 +30,6 @@ Rexley requires an iPhone or iPad running iOS 14.0 or iPadOS 14.0.
 # ⚖️ Licensing Info
 The application as received via the App Store for end users is licensed under the [Licensed Application User License Agreement](http://www.apple.com/legal/internet-services/itunes/appstore/dev/stdeula/).
 
-The source code is available for inspection or private deployment under the [GNU General Public License, v3](https://www.gnu.org/licenses/gpl-3.0.txt). See 'License' for a local copy. Please note the GPL does not apply to the App Store copy as the two license agreements are in conflict.
+The source code is available under the MIT License. See 'License' for a local copy.
 
 Rexley relies on a number of awesome third party libraries. Their copyright notices are in 'OSAcknowledgments.txt'.
